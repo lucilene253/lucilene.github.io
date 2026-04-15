@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 30px;
+}
+
+.projetos-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
