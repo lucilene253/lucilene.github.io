@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Projetos from "./components/Projetos";
+import minhaFoto from './assets/eu.jpeg';
 import "./style.css";
 
 function App() {
@@ -10,10 +11,10 @@ function App() {
 
       <main>
         <section id="sobre">
-         <div>
-         <img src="eu.jpg" alt="" width="50px"/>
-          <h2>Sobre Mim</h2> 
-         </div>
+          <div className="flex">
+            <img src={minhaFoto} width="75px" alt="Minha Foto" />
+            <h2>Sobre Mim</h2>
+          </div>
           <p>
             Sou apaixonada por tecnologia, ensino e inovação. Gosto de aprender e compartilhar conhecimento.
           </p>
