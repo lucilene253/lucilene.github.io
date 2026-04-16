@@ -4,18 +4,18 @@ function Projetos() {
   const projetos = [
     {
       id: 1,
-      nome: "Sistema de Fiscalização",
-      descricao: "Sistema web para cadastro e consulta de fiscalizações."
+      nome: "Belas Paisagens de Lagoa do Barro do Piaui",
+      descricao: "Projeto apresentando paisagens naturais de minha cidade."
     },
     {
       id: 2,
-      nome: "Dashboard de Irregularidades",
-      descricao: "Dashboard com filtros, gráficos e estatísticas."
+      nome: "Sobre mim",
+      descricao: "Projeto com informações pessoais sobre mim."
     },
     {
       id: 3,
-      nome: "Automação Google Drive",
-      descricao: "Automação de documentos e envio de e-mails."
+      nome: "Portfolio",
+      descricao: "Portoflio de apresentação para a disciplina Programação Web."
     }
   ];
 
