@@ -10,8 +10,8 @@ function App() {
 
       <main>
         <section id="sobre">
-         <dic>
-           <img src="/WhatsApp Image 2026-04-10 at 11.14.09.jpeg" width="50px" />
+         <div>
+         <img src="eu.jpg" alt="" width="50px"/>
           <h2>Sobre Mim</h2> 
          </div>
           <p>
